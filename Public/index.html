@@ -1,46 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- ----------------------- HEAD ----------------------- -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="../src/index.js" type="text/javascript"></script>
+  
+    <script src="../index.js" type="text/javascript"></script>
+
     <title>Desarrollo Api Rest Ful</title>
 </head>
+<!-- ----------------------  BODY ----------------------- -->
 <body>
-      <form action="./Api/peticiones.js" enctype="multipart/form-data"  method="POST">
+
+
+    <!-- Formulario Entrada Datos -->
+      <form action="./Api/productos.js" enctype="multipart/form-data"  method="POST">
     
         <section class="form-register">
             <h3>Ingreso Productos</h3>
             <input class="controls" type="text"  id="Title" placeholder="title">
             <input class="controls" type="text"  id="Price" placeholder="price">
             <input class="controls" type="text" id="Thumbnail" placeholder="url-foto">
-      </br></br>
+                <br/><br/>
+
+
+    <!--    Boton Enviar    -->
     <button type="submit" onclick="enviar">Enviar</button>
 </form>
 
-        <!--action="./Api/productos" enctype="multipart/form-data"  method="POST">
-        <h2>Ingresa Producto</h2> -->
-
-        <!-- ----------- TITLE ----------- -->
-        <!-- <div class="form-floating mb-3">
-            <label for="floatTitle"><h3>Title</h3></label>
-            <input type="text" id="floatTitle" placeholder="title-text">
-        </div> -->
-
-        <!-- ------------ PRICE ----------- -->
-        <!-- <div class="form-floating mb-3">
-            <label for="floatPrice"><h3>Price</h3></label>
-            <input type="text" id="floatPrice" placeholder="price">
-        </div> -->
-
-
-        <!-- ----------- THUMBNAIL --------- -->
-       <!--  <div class="form-floating mb-3">
-            <label for="floatThumbnail"><h3>Thumbnail</h3></label>
-            <input type="text" id="floatThumbnail" placeholder="ruta-imagen">
-        </div> -->
          
     
 
@@ -50,15 +39,13 @@
     <section class="form-register">
         
         <input class="controls" type="text"  id="Title" placeholder="ID del producto">
-    </br></br>
+            <br/><br/>
+    <!--    Boton Mostrar    -->
          <button id="mostrar" onclick="mostrar">Mostrar</button>
-         <p>Comentario<br/>
-            <textarea name="comentario" rows="5" cols="50">Escribe tu comentario: </textarea>
+        
+           <!-- <textarea name="comentario" rows="5" cols="50"></textarea> -->
 </body>
 
-<!-- <footer>
-    <h5><b>Email: gonzalorodrigo030675@gmail.com <br> Año: 2022</b></h5>
 
-</footer> -->
 </html>
     
